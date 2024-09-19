@@ -1,5 +1,7 @@
 # Plan de Estudio: Algoritmos, Estructuras de Datos y Complejidad Temporal
 
+# Carpeta para la teoría: [Drive](https://drive.google.com/drive/u/0/folders/1dHNS1KUm3V23JvfihYbUHB1b3WKcZn1g)
+
 ## Semana 1: Fundamentos y Estructuras de Datos
 
 ### Día 1: Introducción y Complejidad Temporal
