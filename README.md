@@ -40,8 +40,17 @@
   - Problemas de listas enlazadas:
     - Ejemplo: [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
     - Ejemplo: [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+   
+### Día 5: Hash Maps y Sets
+- **Teoría (1 hora)**:
+  - Concepto de hash map (tabla hash) y sus principales operaciones (inserción, eliminación, búsqueda).
+  - Diferencias entre hash maps y sets (conjuntos).
+  - Casos de uso típicos: tablas de frecuencia, almacenamiento de pares clave-valor.
+-**Práctica (1h)**:
+  -Implementar un hash map básico (si el lenguaje lo permite).
+  -Resolver problemas que involucren detección de duplicados, conteo de frecuencias y búsquedas rápidas usando hash maps en LeetCode. 
 
-### Día 5: Recursividad y Backtracking
+### Día 6: Recursividad y Backtracking
 - **Teoría (1 hora)**:
   - Aprende a pensar de manera recursiva.
   - Estudia ejemplos clásicos de backtracking.
@@ -51,7 +60,7 @@
     - Ejemplo: [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
     - Ejemplo: [N-Queens](https://leetcode.com/problems/n-queens/)
 
-### Día 6: Árboles Binarios (Binary Trees)
+### Día 7: Árboles Binarios (Binary Trees)
 - **Teoría (1 hora)**:
   - Revisa **árboles binarios**, **traversals** (preorder, inorder, postorder), inserción y eliminación.
   - Aprende sobre la altura de los árboles, subárboles, y balance.
@@ -59,12 +68,6 @@
   - Problemas sobre árboles binarios:
     - Ejemplo: [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
     - Ejemplo: [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
-
-### Día 7: Revisión y Refuerzo
-- **Revisión (2 horas)**:
-  - Repasa los temas que consideres que necesitas reforzar.
-  - Intenta resolver problemas adicionales en áreas donde sientas más dificultad.
-  - Céntrate en mejorar tu velocidad y precisión.
 
 ---
 
