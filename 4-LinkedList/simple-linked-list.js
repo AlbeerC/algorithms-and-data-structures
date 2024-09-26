@@ -160,6 +160,22 @@ class LinkedList {
         return elements + 'null'
 
     }
+
+    reverse() {
+        let prev = null; // Inicialmente no hay nodo previo
+        let current = this.head; // Empezamos desde el head
+        let next = null; // Para almacenar temporalmente el siguiente nodo
+
+        // Recorremos la lista hasta que current sea null (fin de la lista)
+        while (current !== null) {
+            next = current.next; // Almacenamos el siguiente nodo
+            current.next = prev; // Revertimos el puntero del nodo actual
+            prev = current; // Movemos el nodo previo al nodo actual
+            current = next; // Avanzamos al siguiente nodo
+        }
+
+        this.head = prev; // El último nodo procesado será el nuevo head
+    }
 }
 
 
@@ -189,3 +205,5 @@ console.log(list.findByPosition(0))
 console.log(list.findByPosition(2))
 console.log(list.findByPosition(4))
 console.log(list.findByPosition(5))
+list.reverse()
+console.log(`Reverse list: ${list.print()}`)
